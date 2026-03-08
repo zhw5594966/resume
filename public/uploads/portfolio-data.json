@@ -1,0 +1,143 @@
+[
+  {
+    "id": "7dc7aa32-b0e2-41f2-ba78-046af97b09ac",
+    "title": "ue4制作特种电影1",
+    "category": "华侨城特种电影项目",
+    "desc": "带领团队用UE制作特种电影并参与地编制作",
+    "coverSrc": "uploads/videos/ue4制作特种电影1.mp4",
+    "coverType": "video",
+    "tags": [
+      "maya",
+      "ue5"
+    ],
+    "assets": [
+      {
+        "id": "7dc7aa32-b0e2-41f2-ba78-046af97b09ac-legacy",
+        "src": "uploads/videos/ue4制作特种电影1.mp4",
+        "type": "video",
+        "name": "ue4制作特种电影1"
+      },
+      {
+        "id": "6a837a31-4f9c-4064-a5ca-974151b51c09",
+        "src": "uploads/videos/ue4制作互动项目.mp4",
+        "type": "video",
+        "name": "ue4制作互动项目.mp4"
+      }
+    ]
+  },
+  {
+    "id": "6fe1ba25-6d10-49b0-aa7f-ca198ad51551",
+    "title": "UE5metahuman数字人",
+    "category": "华侨城特种电影项目",
+    "desc": "爆笑两姐妹IP直播",
+    "coverSrc": "uploads/images/4.jpg",
+    "coverType": "image",
+    "tags": [
+      "UE4"
+    ],
+    "assets": [
+      {
+        "id": "47f6e5de-4ecd-40cc-a88c-1fdf3225a95c",
+        "src": "uploads/videos/爆笑两姐妹直播.mp4",
+        "type": "video",
+        "name": "爆笑两姐妹直播.mp4"
+      },
+      {
+        "id": "8937edc1-4b37-434e-a6f1-48f0adda1e12",
+        "src": "uploads/videos/表情捕捉录制.mp4",
+        "type": "video",
+        "name": "表情捕捉录制.mp4"
+      }
+    ]
+  },
+  {
+    "id": "d69adb64-f22f-4bfd-97fe-9153804c1702",
+    "title": "UE5地编",
+    "category": "沉浸式空间项目",
+    "desc": "沉浸式空间项目",
+    "coverSrc": "uploads/images/1.jpg",
+    "coverType": "image",
+    "tags": [
+      "UE5 PCG maya"
+    ],
+    "assets": [
+      {
+        "id": "ab3e7876-32dc-49f5-9f3f-ec2b18983571",
+        "src": "uploads/docs/ue地编.pdf",
+        "type": "pdf",
+        "name": "UE地编.pdf"
+      }
+    ]
+  },
+  {
+    "id": "93bcb43c-21ae-4bf1-9333-28f3ff6b88b4",
+    "title": "UE5地编",
+    "category": "沉浸式空间项目",
+    "desc": "沉浸式空间项目",
+    "coverSrc": "uploads/images/screenshot-2026-03-09-021756-395.png",
+    "coverType": "image",
+    "tags": [
+      "UE5 PCG maya"
+    ],
+    "assets": [
+      {
+        "id": "bef77ff8-6f02-434f-b0d6-236d4a98ffad",
+        "src": "uploads/videos/春雨-0000.mp4",
+        "type": "video",
+        "name": "春雨.0000.mp4"
+      },
+      {
+        "id": "9b265e57-38de-4ce7-9a39-7e6620303c3b",
+        "src": "uploads/videos/夏晴-0000.mp4",
+        "type": "video",
+        "name": "夏晴.0000.mp4"
+      }
+    ]
+  },
+  {
+    "id": "4ad921c0-117e-4b12-8c06-2e640b29573e",
+    "title": "早期数字餐厅及沉浸式作品",
+    "category": "沉浸式空间",
+    "desc": "",
+    "coverSrc": "uploads/images/gopr8591-mp4-20230720-003158-698.jpg",
+    "coverType": "image",
+    "tags": [
+      "maya",
+      "ue4"
+    ],
+    "assets": [
+      {
+        "id": "d3598960-2a62-468c-82e3-ee2f77771a25",
+        "src": "uploads/videos/千度文化传媒任职期间作品案例.mp4",
+        "type": "video",
+        "name": "千度文化传媒任职期间作品案例.mp4"
+      },
+      {
+        "id": "dad4324f-3a57-4b74-b795-ed5e1721b4d3",
+        "src": "uploads/docs/作品集-01.pdf",
+        "type": "pdf",
+        "name": "作品集_01.pdf"
+      }
+    ]
+  },
+  {
+    "id": "8395a5fa-b63c-4e0b-9bad-5b59ac3b57cb",
+    "title": "UE5交互项目",
+    "category": "机器人交互demo",
+    "desc": "为机器人项目做demo演示，写蓝图交互逻辑，Niagra",
+    "coverSrc": "uploads/videos/搬箱子交互操作.mp4",
+    "coverType": "video",
+    "tags": [
+      "UE5",
+      "蓝图"
+    ],
+    "assets": [
+      {
+        "id": "9c1ad46a-f6b4-42c2-9bbb-f8f8e9927c67",
+        "src": "uploads/videos/搬箱子交互操作.mp4",
+        "type": "video",
+        "name": "搬箱子交互操作.mp4"
+      }
+    ]
+  }
+]
