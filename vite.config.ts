@@ -6,6 +6,8 @@ import { Readable } from 'node:stream';
 import type { Plugin } from 'vite';
 import { defineConfig } from 'vite';
 
+import { cloudflare } from "@cloudflare/vite-plugin";
+
 function getTargetFolder(type: 'image' | 'video' | 'pdf') {
   if (type === 'video') {
     return 'videos';
@@ -91,7 +93,7 @@ function portfolioWritePlugin(): Plugin {
 
 export default defineConfig({
   base: './',
-  plugins: [react(), tailwindcss(), portfolioWritePlugin()],
+  plugins: [react(), tailwindcss(), portfolioWritePlugin(), cloudflare()],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, '.'),
