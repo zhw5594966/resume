@@ -90,7 +90,7 @@ function portfolioWritePlugin(): Plugin {
 }
 
 export default defineConfig({
-  base: '/resume/',
+  base: './',
   plugins: [react(), tailwindcss(), portfolioWritePlugin()],
   resolve: {
     alias: {

@@ -46,17 +46,11 @@ const makeDraft = (): DraftAsset => ({
   galleryAssets: [],
 });
 
-function sanitizeFileName(name: string) {
+function buildStoredFileName(id: string, name: string) {
   const dotIndex = name.lastIndexOf('.');
-  const base = dotIndex > 0 ? name.slice(0, dotIndex) : name;
-  const ext = dotIndex > 0 ? name.slice(dotIndex) : '';
-  const safeBase = base
-    .toLowerCase()
-    .replace(/[^a-z0-9\u4e00-\u9fa5]+/gi, '-')
-    .replace(/-+/g, '-')
-    .replace(/^-|-$/g, '');
-
-  return `${safeBase || 'asset'}${ext.toLowerCase()}`;
+  const ext = dotIndex > 0 ? name.slice(dotIndex).toLowerCase() : '';
+  const safeId = id.replace(/[^a-z0-9-]/gi, '').toLowerCase();
+  return `${safeId || 'asset'}${ext}`;
 }
 
 function detectMediaType(file: File): PortfolioMediaType {
@@ -201,9 +195,9 @@ export default function PortfolioUploader() {
     items
       .filter((item) => item.title.trim() && item.category.trim() && item.coverFile && item.galleryAssets.length > 0)
       .map((item) => {
-        const coverName = sanitizeFileName(item.coverFile!.name);
+        const coverName = buildStoredFileName(item.id, item.coverFile!.name);
         const assets: PortfolioAsset[] = item.galleryAssets.map((asset) => {
-          const fileName = sanitizeFileName(asset.file.name);
+          const fileName = buildStoredFileName(asset.id, asset.file.name);
           return {
             id: asset.id,
             src: `uploads/${getTargetFolder(asset.type)}/${fileName}`,
