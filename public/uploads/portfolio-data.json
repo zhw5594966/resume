@@ -12,16 +12,22 @@
     ],
     "assets": [
       {
-        "id": "7dc7aa32-b0e2-41f2-ba78-046af97b09ac-legacy",
+        "id": "8c864c19-fd40-44d2-9be6-c7e768aea2bf",
         "src": "uploads/videos/ue4制作特种电影1.mp4",
         "type": "video",
-        "name": "ue4制作特种电影1"
+        "name": "ue4制作特种电影1.mp4"
       },
       {
-        "id": "6a837a31-4f9c-4064-a5ca-974151b51c09",
-        "src": "uploads/videos/ue4制作互动项目.mp4",
+        "id": "f7746f20-382f-4f12-86fe-bd2f1d47e4c6",
+        "src": "uploads/videos/ue4-special-film-2.mp4",
         "type": "video",
-        "name": "ue4制作互动项目.mp4"
+        "name": "ue4-special-film-2.mp4"
+      },
+      {
+        "id": "dc2a75b7-d300-430c-b6bb-68d0473f0dfd",
+        "src": "uploads/videos/ue4-interactive.mp4",
+        "type": "video",
+        "name": "ue4-interactive.mp4"
       }
     ]
   },
@@ -81,16 +87,16 @@
     ],
     "assets": [
       {
-        "id": "bef77ff8-6f02-434f-b0d6-236d4a98ffad",
-        "src": "uploads/videos/春雨-0000.mp4",
-        "type": "video",
-        "name": "春雨.0000.mp4"
-      },
-      {
         "id": "9b265e57-38de-4ce7-9a39-7e6620303c3b",
         "src": "uploads/videos/夏晴-0000.mp4",
         "type": "video",
         "name": "夏晴.0000.mp4"
+      },
+      {
+        "id": "f7a0ce01-9b56-43b6-a4b1-ee0ff74877ad",
+        "src": "uploads/videos/春雨-0000.mp4",
+        "type": "video",
+        "name": "春雨-0000.mp4"
       }
     ]
   },
